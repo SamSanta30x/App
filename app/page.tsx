@@ -4,6 +4,8 @@ import Navbar from '@/components/Navbar';
 export default function Home() {
   return (
     <>
+     <script src="http://localhost:8080/copilot.js"></script>
+  
       <Navbar />
       <main className="min-h-screen bg-white dark:bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
